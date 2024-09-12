@@ -1,0 +1,5 @@
+# Ignore all files with these extensions, no matter which folder they are in
+*.docx
+
+# Ignore the Python cache folder
+__pycache__/
