@@ -81,6 +81,7 @@ manage.create_task("Code an application in Java", "Find a problem to solve using
 manage.create_task("Code an application in C++", "Find a problem to solve using C++", "2024-09-14", "High")
 manage.create_task("Study agile methodology", "Apply the SCRUM framework and the Kanban System", "2024-09-15", "High")
 manage.create_task("Increase visibility on social media", "GitHub, Discord, LinkedIn", "2024-09-16", "High")
+manage.create_task("Gain visibility on LinkedIn", "Publish tech articles on LinkedIn", "2024-09-17", "High")
 
 # 4. Save the tasks in the JSON file
 manage.save_tasks()

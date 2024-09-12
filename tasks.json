@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Code an application in C++",
+        "description": "Find a problem to solve using C++",
+        "expiration_date": "2024-09-14",
+        "priority": "High"
+    },
+    {
+        "title": "Study agile methodology",
+        "description": "Apply the SCRUM framework and the Kanban System",
+        "expiration_date": "2024-09-15",
+        "priority": "High"
+    },
+    {
+        "title": "Increase visibility on social media",
+        "description": "GitHub, Discord, LinkedIn",
+        "expiration_date": "2024-09-16",
+        "priority": "High"
+    }
+]
