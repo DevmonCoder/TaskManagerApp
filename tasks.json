@@ -6,15 +6,15 @@
         "priority": "High"
     },
     {
-        "title": "Study agile methodology",
-        "description": "Apply the SCRUM framework and the Kanban System",
-        "expiration_date": "2024-09-15",
-        "priority": "High"
-    },
-    {
         "title": "Increase visibility on social media",
         "description": "GitHub, Discord, LinkedIn",
         "expiration_date": "2024-09-16",
         "priority": "High"
+    },
+    {
+        "title": "Code in C#",
+        "description": "Develop application for Agile methodology",
+        "expiration_date": "20/09/2024",
+        "priority": "Medium"
     }
 ]
