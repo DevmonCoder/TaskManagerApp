@@ -8,6 +8,10 @@ class TaskManager:
         self.tasks = []
         self.file_path = 'tasks.json' # File where the tasks will be saved
         self.load_tasks() # Load tasks at startup
+        self.tasks = []
+
+    def get_all_tasks(self):
+        return self.tasks        
 
     def create_task(self, title, description, expiration_date, priority):
         task = Task(title, description, expiration_date, priority)

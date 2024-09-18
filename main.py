@@ -1,7 +1,14 @@
+from gui import TaskManagerApp
+from Task import Task
 from TasksManager import TaskManager
+from Task import Task
+import tkinter as tk
 
 if __name__ == "__main__":
     manage = TaskManager()
+    root = tk.Tk()
+    app = TaskManagerApp(root)
+    root.mainloop()
 
     while True:
         print("\nWhat would you like to do?")

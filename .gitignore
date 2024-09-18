@@ -1,5 +1,6 @@
 # Ignore all files with these extensions, no matter which folder they are in
 *.docx
+*.xlsx
 *.txt
 
 # Ignore the Python cache folder
