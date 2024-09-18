@@ -33,9 +33,9 @@ class TaskManagerApp:
         #Buttons to add and delete tasks
         btn_frame = tk.Frame(self.root)
         btn_frame.pack(pady=10)
-        self.add_task_btn = tk.Button(btn_frame, text="Agregar Tarea", command=self.add_task)
+        self.add_task_btn = tk.Button(btn_frame, text="Add task", command=self.add_task)
         self.add_task_btn.grid(row=0, column=0, padx=10)
-        self.delete_task_btn = tk.Button(btn_frame, text="Eliminar Tarea", command=self.delete_task)
+        self.delete_task_btn = tk.Button(btn_frame, text="Delete task", command=self.delete_task)
         self.delete_task_btn.grid(row=0, column=1, padx=10)
     def load_tasks(self):
         task_manager = TaskManager()
@@ -46,7 +46,7 @@ class TaskManagerApp:
         title = self.task_title_entry.get()
         description = self.task_description_entry.get()
         if not title or not description:
-            print("Por favor, ingrese un titulo y una descripción.")
+            print("Please enter a title and a description.")
             return
         new_task = Task(title, description)
         self.task_manager.add_task(new_task)
@@ -58,4 +58,4 @@ class TaskManagerApp:
             self.task_manager.delete_task(task_to_delet)
             self.task_list.delete(selected_task_index)
         else:
-            messagebox.showwarning("Selección requerida", "Por favor")
+            messagebox.showwarning("Selection required", "Please")

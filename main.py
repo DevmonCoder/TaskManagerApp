@@ -47,4 +47,4 @@ if __name__ == "__main__":
         elif option == '5':
             break
         else:
-            print("Opción no válida!")
+            print("Invalid option!")
